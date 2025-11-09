@@ -1,0 +1,117 @@
+2025-11-06 13:10:59,590 - __main__ - INFO - Model initialized
+2025-11-06 13:10:59,611 - __main__ - INFO - Tools registered: ['calculator', 'get_date', 'get_weather', 'web_search', 'search_knowledge']
+2025-11-06 13:10:59,611 - __main__ - INFO - Agent compiled with memory persistence
+2025-11-06 13:10:59,611 - __main__ - INFO - Agent startup
+2025-11-06 13:10:59,611 - __main__ - INFO - Interactive session started
+2025-11-06 13:12:15,152 - __main__ - INFO - User query: my name is jadon
+2025-11-06 13:12:15,157 - __main__ - INFO - LLM call #1
+2025-11-06 13:12:16,563 - __main__ - INFO - Response delivered
+2025-11-06 13:12:21,491 - __main__ - INFO - User query: what is my name ?
+2025-11-06 13:12:21,497 - __main__ - INFO - LLM call #2
+2025-11-06 13:12:22,491 - __main__ - INFO - Response delivered
+2025-11-06 13:12:26,566 - __main__ - INFO - Session ended by user
+2025-11-06 13:12:33,848 - __main__ - INFO - Model initialized
+2025-11-06 13:12:33,864 - __main__ - INFO - Tools registered: ['calculator', 'get_date', 'get_weather', 'web_search', 'search_knowledge']
+2025-11-06 13:12:33,875 - __main__ - INFO - Agent compiled with memory persistence
+2025-11-06 13:12:33,875 - __main__ - INFO - Agent startup
+2025-11-06 13:12:33,875 - __main__ - INFO - Interactive session started
+2025-11-06 13:12:38,926 - __main__ - INFO - User query: what is my name?
+2025-11-06 13:12:38,928 - __main__ - INFO - LLM call #1
+2025-11-06 13:12:40,573 - __main__ - INFO - Response delivered
+2025-11-06 13:13:38,636 - __main__ - INFO - User query: Who invented the telegraph and in which year?
+2025-11-06 13:13:38,638 - __main__ - INFO - LLM call #2
+2025-11-06 13:13:39,618 - __main__ - INFO - Executing tool: search_knowledge
+2025-11-06 13:13:39,641 - __main__ - INFO - RAG search initiated: who invented the telegraph and when
+2025-11-06 13:13:41,291 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-06 13:13:41,291 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-06 13:13:46,897 - __main__ - INFO - RAG returned 3 results
+2025-11-06 13:13:46,898 - __main__ - INFO - LLM call #3
+2025-11-06 13:13:47,901 - __main__ - INFO - Response delivered
+2025-11-06 14:48:15,358 - __main__ - INFO - Session ended by user
+2025-11-06 14:48:23,525 - __main__ - INFO - Model initialized
+2025-11-06 14:48:23,539 - __main__ - INFO - Tools registered: ['calculator', 'get_date', 'get_weather', 'web_search', 'search_knowledge']
+2025-11-06 14:48:23,542 - __main__ - INFO - Agent compiled with memory persistence
+2025-11-06 14:48:23,542 - __main__ - INFO - Agent startup
+2025-11-06 14:48:23,543 - __main__ - INFO - Interactive session started
+2025-11-06 14:48:40,354 - __main__ - INFO - User query: weather in the capital of Tamil Nadu
+2025-11-06 14:48:40,357 - __main__ - INFO - LLM call #1
+2025-11-06 14:48:41,892 - __main__ - INFO - Executing tool: get_weather
+2025-11-06 14:48:42,015 - __main__ - INFO - Weather fetched for Chennai
+2025-11-06 14:48:42,015 - __main__ - INFO - LLM call #2
+2025-11-06 14:48:43,085 - __main__ - INFO - Response delivered
+2025-11-06 14:49:28,799 - __main__ - INFO - User query: who invented telegraph ?
+2025-11-06 14:49:28,801 - __main__ - INFO - LLM call #3
+2025-11-06 14:49:29,733 - __main__ - INFO - Executing tool: search_knowledge
+2025-11-06 14:49:29,775 - __main__ - INFO - RAG search initiated: who invented telegraph
+2025-11-06 14:49:29,775 - __main__ - INFO - Using hybrid search: Vector similarity + BM25 keyword matching
+2025-11-06 14:49:29,775 - __main__ - INFO - Loading HuggingFace embeddings model
+2025-11-06 14:49:32,218 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-06 14:49:32,218 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-06 14:49:36,867 - __main__ - INFO - Embeddings model loaded successfully
+2025-11-06 14:49:36,867 - __main__ - INFO - Connecting to Neo4j at neo4j+s://7bc085a9.databases.neo4j.io
+2025-11-06 14:49:38,298 - __main__ - INFO - Connected to Neo4j vector store
+2025-11-06 14:49:38,298 - __main__ - INFO - Converting query to vector embedding
+2025-11-06 14:49:38,298 - __main__ - INFO - Executing hybrid search (Vector + BM25)
+2025-11-06 14:49:38,490 - __main__ - INFO - Vector search: Found 3 semantically similar chunks
+2025-11-06 14:49:38,490 - __main__ - INFO - BM25 search: Matched keywords across 3 document chunks
+2025-11-06 14:49:38,490 - __main__ - INFO - Result 1: Source=telecom_sample.pdf
+2025-11-06 14:49:38,490 - __main__ - INFO - Result 1: Chunk preview: of telecommunications encompasses the transmission of voice, data, text, sound, and video
+through wired, optical, or wireless systems. It forms the ba...
+2025-11-06 14:49:38,490 - __main__ - INFO - Result 2: Source=telecom_sample.pdf
+2025-11-06 14:49:38,505 - __main__ - INFO - Result 2: Chunk preview: Introduction to Telecommunications
+Telecommunications is the science and practice of transmitting information by various forms of
+technology over dist...
+2025-11-06 14:49:38,505 - __main__ - INFO - Result 3: Source=telecom_sample.pdf
+2025-11-06 14:49:38,505 - __main__ - INFO - Result 3: Chunk preview: allowed for real-time long-distance communication, completely changing the world’s economic and
+social fabric. The 20th century witnessed the rapid ri...
+2025-11-06 14:49:38,505 - __main__ - INFO - RAG search completed: Returning 3 results to LLM
+2025-11-06 14:49:38,505 - __main__ - INFO - LLM call #4
+2025-11-06 14:49:39,411 - __main__ - INFO - Response delivered
+2025-11-06 14:50:03,325 - __main__ - INFO - User query: which year?
+2025-11-06 14:50:03,325 - __main__ - INFO - LLM call #5
+2025-11-06 14:50:04,281 - __main__ - INFO - Response delivered
+2025-11-06 14:50:20,967 - __main__ - INFO - User query: who is samuel morse?
+2025-11-06 14:50:20,970 - __main__ - INFO - LLM call #6
+2025-11-06 14:50:21,973 - __main__ - INFO - Executing tool: search_knowledge
+2025-11-06 14:50:21,973 - __main__ - INFO - RAG search initiated: who is samuel morse
+2025-11-06 14:50:21,973 - __main__ - INFO - Using hybrid search: Vector similarity + BM25 keyword matching
+2025-11-06 14:50:21,973 - __main__ - INFO - Loading HuggingFace embeddings model
+2025-11-06 14:50:21,973 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-11-06 14:50:21,973 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-06 14:50:27,157 - __main__ - INFO - Embeddings model loaded successfully
+2025-11-06 14:50:27,157 - __main__ - INFO - Connecting to Neo4j at neo4j+s://7bc085a9.databases.neo4j.io
+2025-11-06 14:50:28,396 - __main__ - INFO - Connected to Neo4j vector store
+2025-11-06 14:50:28,396 - __main__ - INFO - Converting query to vector embedding
+2025-11-06 14:50:28,396 - __main__ - INFO - Executing hybrid search (Vector + BM25)
+2025-11-06 14:50:28,600 - __main__ - INFO - Vector search: Found 3 semantically similar chunks
+2025-11-06 14:50:28,600 - __main__ - INFO - BM25 search: Matched keywords across 3 document chunks
+2025-11-06 14:50:28,600 - __main__ - INFO - Result 1: Source=telecom_sample.pdf
+2025-11-06 14:50:28,600 - __main__ - INFO - Result 1: Chunk preview: of telecommunications encompasses the transmission of voice, data, text, sound, and video
+through wired, optical, or wireless systems. It forms the ba...
+2025-11-06 14:50:28,600 - __main__ - INFO - Result 2: Source=telecom_sample.pdf
+2025-11-06 14:50:28,600 - __main__ - INFO - Result 2: Chunk preview: allowed for real-time long-distance communication, completely changing the world’s economic and
+social fabric. The 20th century witnessed the rapid ri...
+2025-11-06 14:50:28,600 - __main__ - INFO - Result 3: Source=telecom_sample.pdf
+2025-11-06 14:50:28,600 - __main__ - INFO - Result 3: Chunk preview: innovation but also on inclusivity, resilience, and ethical responsibility. In the coming decades,
+telecommunications will remain a cornerstone of hum...
+2025-11-06 14:50:28,600 - __main__ - INFO - RAG search completed: Returning 3 results to LLM
+2025-11-06 14:50:28,600 - __main__ - INFO - LLM call #7
+2025-11-06 14:50:29,633 - __main__ - INFO - Response delivered
+2025-11-06 15:53:43,921 - __main__ - INFO - Session ended by user
+2025-11-06 15:53:49,663 - __main__ - INFO - Model initialized
+2025-11-06 15:53:49,676 - __main__ - INFO - Tools registered: ['calculator', 'get_date', 'get_weather', 'web_search', 'search_knowledge']
+2025-11-06 15:53:49,679 - __main__ - INFO - Agent compiled with memory persistence
+2025-11-06 15:53:49,679 - __main__ - INFO - Agent startup
+2025-11-06 15:53:49,680 - __main__ - INFO - Interactive session started
+2025-11-06 15:56:22,190 - __main__ - INFO - User query: what is the weather in chennai?
+2025-11-06 15:56:22,192 - __main__ - INFO - LLM call #1
+2025-11-06 15:56:23,675 - __main__ - INFO - Executing tool: get_weather
+2025-11-06 15:56:23,800 - __main__ - INFO - Weather fetched for chennai
+2025-11-06 15:56:23,800 - __main__ - INFO - LLM call #2
+2025-11-06 15:56:24,798 - __main__ - INFO - Response delivered
+2025-11-06 18:26:13,040 - __main__ - INFO - Session ended by user
+2025-11-06 18:26:25,002 - __main__ - INFO - Model initialized
+2025-11-06 18:26:25,027 - __main__ - INFO - Tools registered: ['calculator', 'get_date', 'get_weather', 'web_search', 'search_knowledge']
+2025-11-06 18:26:25,038 - __main__ - INFO - Agent compiled with memory persistence
+2025-11-06 18:26:25,038 - __main__ - INFO - Agent startup
+2025-11-06 18:26:25,038 - __main__ - INFO - Interactive session started

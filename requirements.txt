@@ -1,0 +1,26 @@
+# Core LangGraph and LangChain dependencies
+langgraph>=1.0.2
+langchain>=1.0.0
+langchain-core>=1.0.0
+langchain-google-genai>=2.0.0
+langchain-community>=0.3.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# HTTP requests for API calls
+requests>=2.31.0
+
+# Neo4j for knowledge graph (RAG)
+neo4j>=5.14.0
+
+# For visualization (optional but recommended)
+IPython>=8.0.0
+Pillow>=10.0.0
+
+# Type hints support
+typing-extensions>=4.8.0
+
+# Optional: For loading different document types
+pypdf>=3.17.0  # For PDF files
+docx2txt>=0.8  # For Word documents
